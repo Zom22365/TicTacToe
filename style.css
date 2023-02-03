@@ -8,6 +8,7 @@
 .infoUser{
     margin-top: 40px;
     text-align: center;
+    display: none;
 }
 
 .formUser{
@@ -49,7 +50,7 @@
     width: 250px;
     width: 250px;
     margin: 20px auto;
-    display: none;
+    /* display: none; */
 }
 .row{
     display: flex;
