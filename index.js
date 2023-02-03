@@ -59,6 +59,11 @@ for (let i = 0; i < cellData.length; i++) {
         }
       }
       markPlayer += 1;
+      let sum = player1.length + player2.length;
+      if (sum === 9) {
+        document.getElementById("alertWinner").style.display = "block";
+        document.getElementById("alert").innerHTML = "Match Draw!";
+      }
     }
   });
 }
